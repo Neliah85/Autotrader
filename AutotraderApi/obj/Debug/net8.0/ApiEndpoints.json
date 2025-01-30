@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "AutotraderApi.Controllers.CarsController",
+    "Method": "AddNewCar",
+    "RelativePath": "cars",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCarDto",
+        "Type": "AutotraderApi.Models.Dtos.CreateCarDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
