@@ -1,6 +1,6 @@
-@AutotraderApi_HostAddress = http://localhost:5238
+@AutotraderAPI_HostAddress = http://localhost:5007
 
-GET {{AutotraderApi_HostAddress}}/weatherforecast/
+GET {{AutotraderAPI_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

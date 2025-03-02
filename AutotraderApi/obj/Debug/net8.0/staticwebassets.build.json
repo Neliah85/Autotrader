@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "TGjtuzZ55qsWzv21u6lyMfsNlqWMrlBySLgMKT0yARk=",
+  "Hash": "NFE4IStUdDV9ihA03mGwCzV3nb5U7+sq05s2lAQR0DA=",
   "Source": "AutotraderApi",
   "BasePath": "_content/AutotraderApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

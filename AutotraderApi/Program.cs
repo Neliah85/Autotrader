@@ -1,11 +1,40 @@
 
-namespace AutotraderApi
+using AutotraderApi.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace AutotraderAPI
 {
     public class Program
     {
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddDbContext<AutotraderContext>(options =>
+            {
+                var connectionString = builder.Configuration.GetConnectionString("MySql");
+                options.UseMySQL(connectionString);
+            });
+
+            var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+            builder.Services.AddCors(options =>
+            {
+
+                options.AddPolicy(MyAllowSpecificOrigins,
+                                      policy =>
+                                      {
+                                          policy.WithOrigins("http://localhost:3000",
+                                                             "http://localhost:3000")
+                                                                .AllowAnyHeader()
+                                                                .AllowAnyMethod();
+                                      });
+            });
+
+            // A végére mehet ez
+
+
+
 
             // Add services to the container.
 
@@ -31,6 +60,8 @@ namespace AutotraderApi
             app.MapControllers();
 
             app.Run();
+
+            app.UseCors(MyAllowSpecificOrigins);
         }
     }
 }

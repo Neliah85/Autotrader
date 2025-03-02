@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lengy\\Desktop\\Suli\\IKT alapok II\\Autotrader-main\\AutotraderApi\\AutotraderApi.csproj": {}
+    "C:\\Users\\lengy\\Desktop\\Suli\\IKT alapok II\\Autotrader-main\\AutotraderAPI\\AutotraderAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lengy\\Desktop\\Suli\\IKT alapok II\\Autotrader-main\\AutotraderApi\\AutotraderApi.csproj": {
+    "C:\\Users\\lengy\\Desktop\\Suli\\IKT alapok II\\Autotrader-main\\AutotraderAPI\\AutotraderAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lengy\\Desktop\\Suli\\IKT alapok II\\Autotrader-main\\AutotraderApi\\AutotraderApi.csproj",
-        "projectName": "AutotraderApi",
-        "projectPath": "C:\\Users\\lengy\\Desktop\\Suli\\IKT alapok II\\Autotrader-main\\AutotraderApi\\AutotraderApi.csproj",
+        "projectUniqueName": "C:\\Users\\lengy\\Desktop\\Suli\\IKT alapok II\\Autotrader-main\\AutotraderAPI\\AutotraderAPI.csproj",
+        "projectName": "AutotraderAPI",
+        "projectPath": "C:\\Users\\lengy\\Desktop\\Suli\\IKT alapok II\\Autotrader-main\\AutotraderAPI\\AutotraderAPI.csproj",
         "packagesPath": "C:\\Users\\lengy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lengy\\Desktop\\Suli\\IKT alapok II\\Autotrader-main\\AutotraderApi\\obj\\",
+        "outputPath": "C:\\Users\\lengy\\Desktop\\Suli\\IKT alapok II\\Autotrader-main\\AutotraderAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,13 +57,17 @@
               "target": "Package",
               "version": "[8.0.12, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
             "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
